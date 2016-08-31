@@ -12,7 +12,7 @@ Make sure to recursively clone, or use:
 
 Then build using:
 
-    sudo apt-get install build-essential cmake
+    sudo apt-get install build-essential cmake libboost-all-dev
     mkdir build
     cd build
     cmake ..
