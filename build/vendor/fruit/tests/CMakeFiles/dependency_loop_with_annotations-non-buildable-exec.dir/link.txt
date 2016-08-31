@@ -1,1 +1,0 @@
-/usr/bin/c++   -Wall -Wno-sign-compare -g -std=c++0x -O4 -O3 -DNDEBUG    CMakeFiles/dependency_loop_with_annotations-non-buildable-exec.dir/dependency_loop_with_annotations.cpp.o  -o dependency_loop_with_annotations-non-buildable-exec -rdynamic ../src/libfruit.so -lsupc++ -Wl,-rpath,/home/david/googlefruit-example/build/vendor/fruit/src 

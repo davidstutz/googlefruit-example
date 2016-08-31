@@ -1,1 +1,0 @@
-/usr/bin/c++   -Wall -Wno-sign-compare -g -std=c++0x -O4 -O3 -DNDEBUG    CMakeFiles/bind_instance_error_already_bound-non-buildable-exec.dir/bind_instance_error_already_bound.cpp.o  -o bind_instance_error_already_bound-non-buildable-exec -rdynamic ../src/libfruit.so -lsupc++ -Wl,-rpath,/home/david/googlefruit-example/build/vendor/fruit/src 

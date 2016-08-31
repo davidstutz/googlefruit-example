@@ -1,1 +1,0 @@
-/usr/bin/c++   -Wall -Wno-sign-compare -g -std=c++0x -O4 -O3 -DNDEBUG    CMakeFiles/unsafe_get-exec.dir/unsafe_get.cpp.o  -o unsafe_get-exec -rdynamic ../src/libfruit.so -lsupc++ -Wl,-rpath,/home/david/googlefruit-example/build/vendor/fruit/src 

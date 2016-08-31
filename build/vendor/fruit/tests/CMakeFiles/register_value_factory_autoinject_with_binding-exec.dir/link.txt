@@ -1,1 +1,0 @@
-/usr/bin/c++   -Wall -Wno-sign-compare -g -std=c++0x -O4 -O3 -DNDEBUG    CMakeFiles/register_value_factory_autoinject_with_binding-exec.dir/register_value_factory_autoinject_with_binding.cpp.o  -o register_value_factory_autoinject_with_binding-exec -rdynamic ../src/libfruit.so -lsupc++ -Wl,-rpath,/home/david/googlefruit-example/build/vendor/fruit/src 

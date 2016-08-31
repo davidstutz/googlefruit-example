@@ -1,1 +1,0 @@
-/usr/bin/c++   -Wall -Wno-sign-compare -g -std=c++0x -O4 -O3 -DNDEBUG    CMakeFiles/component_copy_with_annotations-exec.dir/component_copy_with_annotations.cpp.o  -o component_copy_with_annotations-exec -rdynamic ../src/libfruit.so -lsupc++ -Wl,-rpath,/home/david/googlefruit-example/build/vendor/fruit/src 

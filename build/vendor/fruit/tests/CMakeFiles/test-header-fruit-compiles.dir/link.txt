@@ -1,1 +1,0 @@
-/usr/bin/c++  -fPIC -Wall -Wno-sign-compare -g -std=c++0x -O4 -O3 -DNDEBUG   -shared -Wl,-soname,libtest-header-fruit-compiles.so -o libtest-header-fruit-compiles.so CMakeFiles/test-header-fruit-compiles.dir/include_test.cpp.o 
