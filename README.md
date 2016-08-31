@@ -1,6 +1,6 @@
 # Martin Fowler's "Inversion of Control Containers and the Dependency Injection Pattern" Example in C++ with Google Fruit
 
-[![Build Status](https://travis-ci.org/davidstutz/googlemock-example.svg?branch=master)](https://travis-ci.org/davidstutz/googlemock-example)
+[![Build Status](https://travis-ci.org/davidstutz/googlefruit-example.svg?branch=master)](https://travis-ci.org/davidstutz/googlefruit-example)
 
 This repository contains the example discussed in Martin Fowler's ["Inversion of Control Containers and the Dependency Injection Pattern"](http://martinfowler.com/articles/injection.html) implemented in C++ using [Google Fruit](https://github.com/google/fruit).
 
