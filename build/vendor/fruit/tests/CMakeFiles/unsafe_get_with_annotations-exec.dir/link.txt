@@ -1,0 +1,1 @@
+/usr/bin/c++   -Wall -Wno-sign-compare -g -std=c++0x -O4 -O3 -DNDEBUG    CMakeFiles/unsafe_get_with_annotations-exec.dir/unsafe_get_with_annotations.cpp.o  -o unsafe_get_with_annotations-exec -rdynamic ../src/libfruit.so -lsupc++ -Wl,-rpath,/home/david/googlefruit-example/build/vendor/fruit/src 

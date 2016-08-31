@@ -1,0 +1,1 @@
+/usr/bin/c++  -fPIC -Wall -Wno-sign-compare -g -std=c++0x -O4 -O3 -DNDEBUG   -shared -Wl,-soname,libtest-header-injector-compiles.so -o libtest-header-injector-compiles.so CMakeFiles/test-header-injector-compiles.dir/include_test.cpp.o 

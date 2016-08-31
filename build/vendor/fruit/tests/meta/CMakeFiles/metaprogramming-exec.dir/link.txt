@@ -1,0 +1,1 @@
+/usr/bin/c++   -Wall -Wno-sign-compare -g -std=c++0x -O4 -O3 -DNDEBUG    CMakeFiles/metaprogramming-exec.dir/metaprogramming.cpp.o  -o metaprogramming-exec -rdynamic ../../src/libfruit.so -lsupc++ -Wl,-rpath,/home/david/googlefruit-example/build/vendor/fruit/src 

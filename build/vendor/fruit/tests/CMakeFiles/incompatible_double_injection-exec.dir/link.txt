@@ -1,0 +1,1 @@
+/usr/bin/c++   -Wall -Wno-sign-compare -g -std=c++0x -O4 -O3 -DNDEBUG    CMakeFiles/incompatible_double_injection-exec.dir/incompatible_double_injection.cpp.o  -o incompatible_double_injection-exec -rdynamic ../src/libfruit.so -lsupc++ -Wl,-rpath,/home/david/googlefruit-example/build/vendor/fruit/src 

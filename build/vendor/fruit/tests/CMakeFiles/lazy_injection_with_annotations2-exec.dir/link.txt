@@ -1,0 +1,1 @@
+/usr/bin/c++   -Wall -Wno-sign-compare -g -std=c++0x -O4 -O3 -DNDEBUG    CMakeFiles/lazy_injection_with_annotations2-exec.dir/lazy_injection_with_annotations2.cpp.o  -o lazy_injection_with_annotations2-exec -rdynamic ../src/libfruit.so -lsupc++ -Wl,-rpath,/home/david/googlefruit-example/build/vendor/fruit/src 

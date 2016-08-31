@@ -1,0 +1,1 @@
+/usr/bin/c++  -fPIC -Wall -Wno-sign-compare -g -std=c++0x -O4 -O3 -DNDEBUG   -shared -Wl,-soname,libtest-header-normalized_component-compiles.so -o libtest-header-normalized_component-compiles.so CMakeFiles/test-header-normalized_component-compiles.dir/include_test.cpp.o 

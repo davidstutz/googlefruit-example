@@ -1,0 +1,1 @@
+/usr/bin/c++   -Wall -Wno-sign-compare -g -std=c++0x -O4 -O3 -DNDEBUG    CMakeFiles/semistatic_map_hash_selection-exec.dir/semistatic_map_hash_selection.cpp.o  -o semistatic_map_hash_selection-exec -rdynamic ../src/libfruit.so -lsupc++ -Wl,-rpath,/home/david/googlefruit-example/build/vendor/fruit/src 

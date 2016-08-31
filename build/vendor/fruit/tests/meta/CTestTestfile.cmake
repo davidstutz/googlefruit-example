@@ -1,0 +1,38 @@
+# CMake generated Testfile for 
+# Source directory: /home/david/googlefruit-example/vendor/fruit/tests/meta
+# Build directory: /home/david/googlefruit-example/build/vendor/fruit/tests/meta
+# 
+# This file includes the relevant testing commands required for 
+# testing this directory and lists subdirectories to be tested as well.
+add_test(basics "timeout" "30" "/home/david/googlefruit-example/build/vendor/fruit/tests/meta/basics-exec")
+set_tests_properties(basics PROPERTIES  DEPENDS "basics-build")
+add_test(basics-build "/usr/bin/cmake" "--build" "/home/david/googlefruit-example/build" "--target" "basics-exec")
+add_test(algos "timeout" "30" "/home/david/googlefruit-example/build/vendor/fruit/tests/meta/algos-exec")
+set_tests_properties(algos PROPERTIES  DEPENDS "algos-build")
+add_test(algos-build "/usr/bin/cmake" "--build" "/home/david/googlefruit-example/build" "--target" "algos-exec")
+add_test(list "timeout" "30" "/home/david/googlefruit-example/build/vendor/fruit/tests/meta/list-exec")
+set_tests_properties(list PROPERTIES  DEPENDS "list-build")
+add_test(list-build "/usr/bin/cmake" "--build" "/home/david/googlefruit-example/build" "--target" "list-exec")
+add_test(vector "timeout" "30" "/home/david/googlefruit-example/build/vendor/fruit/tests/meta/vector-exec")
+set_tests_properties(vector PROPERTIES  DEPENDS "vector-build")
+add_test(vector-build "/usr/bin/cmake" "--build" "/home/david/googlefruit-example/build" "--target" "vector-exec")
+add_test(set "timeout" "30" "/home/david/googlefruit-example/build/vendor/fruit/tests/meta/set-exec")
+set_tests_properties(set PROPERTIES  DEPENDS "set-build")
+add_test(set-build "/usr/bin/cmake" "--build" "/home/david/googlefruit-example/build" "--target" "set-exec")
+add_test(map "timeout" "30" "/home/david/googlefruit-example/build/vendor/fruit/tests/meta/map-exec")
+set_tests_properties(map PROPERTIES  DEPENDS "map-build")
+add_test(map-build "/usr/bin/cmake" "--build" "/home/david/googlefruit-example/build" "--target" "map-exec")
+add_test(graph "timeout" "30" "/home/david/googlefruit-example/build/vendor/fruit/tests/meta/graph-exec")
+set_tests_properties(graph PROPERTIES  DEPENDS "graph-build")
+add_test(graph-build "/usr/bin/cmake" "--build" "/home/david/googlefruit-example/build" "--target" "graph-exec")
+add_test(proof_trees "timeout" "30" "/home/david/googlefruit-example/build/vendor/fruit/tests/meta/proof_trees-exec")
+set_tests_properties(proof_trees PROPERTIES  DEPENDS "proof_trees-build")
+add_test(proof_trees-build "/usr/bin/cmake" "--build" "/home/david/googlefruit-example/build" "--target" "proof_trees-exec")
+add_test(component "timeout" "30" "/home/david/googlefruit-example/build/vendor/fruit/tests/meta/component-exec")
+set_tests_properties(component PROPERTIES  DEPENDS "component-build")
+add_test(component-build "/usr/bin/cmake" "--build" "/home/david/googlefruit-example/build" "--target" "component-exec")
+add_test(metaprogramming "timeout" "30" "/home/david/googlefruit-example/build/vendor/fruit/tests/meta/metaprogramming-exec")
+set_tests_properties(metaprogramming PROPERTIES  DEPENDS "metaprogramming-build")
+add_test(metaprogramming-build "/usr/bin/cmake" "--build" "/home/david/googlefruit-example/build" "--target" "metaprogramming-exec")
+add_test(check-all-tests-listed-metaprogramming "bash" "-c" "for f in \$(ls *.cpp); do [[ \"\$f\" == \"include_test.cpp\" ]] || echo \" basics.cpp algos.cpp list.cpp vector.cpp set.cpp map.cpp graph.cpp proof_trees.cpp component.cpp metaprogramming.cpp \" | fgrep -q \" \$f \" || { echo \"\$f not listed.\" && exit 1; }; done")
+set_tests_properties(check-all-tests-listed-metaprogramming PROPERTIES  WORKING_DIRECTORY "/home/david/googlefruit-example/vendor/fruit/tests/meta")

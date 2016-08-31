@@ -1,0 +1,1 @@
+/usr/bin/c++   -Wall -Wno-sign-compare -g -std=c++0x -O4 -O3 -DNDEBUG    CMakeFiles/explicit_provider_injection_with_annotation-exec.dir/explicit_provider_injection_with_annotation.cpp.o  -o explicit_provider_injection_with_annotation-exec -rdynamic ../src/libfruit.so -lsupc++ -Wl,-rpath,/home/david/googlefruit-example/build/vendor/fruit/src 

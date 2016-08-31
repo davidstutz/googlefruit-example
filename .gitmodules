@@ -1,0 +1,3 @@
+[submodule "vendor/fruit"]
+	path = vendor/fruit
+	url = https://github.com/davidstutz/fruit

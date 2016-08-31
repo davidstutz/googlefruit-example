@@ -1,0 +1,1 @@
+/usr/bin/c++   -Wall -Wno-sign-compare -g -std=c++0x -O4 -O3 -DNDEBUG    CMakeFiles/wrong_class_in_inject_typedef_with_annotation-non-buildable-exec.dir/wrong_class_in_inject_typedef_with_annotation.cpp.o  -o wrong_class_in_inject_typedef_with_annotation-non-buildable-exec -rdynamic ../src/libfruit.so -lsupc++ -Wl,-rpath,/home/david/googlefruit-example/build/vendor/fruit/src 

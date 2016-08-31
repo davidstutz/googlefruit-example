@@ -1,0 +1,1 @@
+/usr/bin/c++   -Wall -Wno-sign-compare -g -std=c++0x -O4 -O3 -DNDEBUG    CMakeFiles/register_factory_not_existing_constructor1-non-buildable-exec.dir/register_factory_not_existing_constructor1.cpp.o  -o register_factory_not_existing_constructor1-non-buildable-exec -rdynamic ../src/libfruit.so -lsupc++ -Wl,-rpath,/home/david/googlefruit-example/build/vendor/fruit/src 

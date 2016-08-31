@@ -1,0 +1,1 @@
+/usr/bin/c++   -Wall -Wno-sign-compare -g -std=c++0x -O4 -O3 -DNDEBUG    CMakeFiles/late_multibinding_error_abstract_class-non-buildable-exec.dir/late_multibinding_error_abstract_class.cpp.o  -o late_multibinding_error_abstract_class-non-buildable-exec -rdynamic ../src/libfruit.so -lsupc++ -Wl,-rpath,/home/david/googlefruit-example/build/vendor/fruit/src 
